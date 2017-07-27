@@ -14,4 +14,8 @@ in the code you will see i used the following libraries :
  6. custom notification service (need some work to do)
  7. angular2-datatable
  8. ng2-bs3-modal 
+<<<<<<< HEAD
  9. Custom Pipes for filteration
+=======
+ 9. Custom Pipes for filteration
+>>>>>>> ec2215d6aacbb4ef619384eff1e8c0636d46f06b
