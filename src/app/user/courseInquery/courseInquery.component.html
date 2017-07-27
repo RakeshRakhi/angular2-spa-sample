@@ -1,0 +1,69 @@
+<div class="container" [ngBusy]="{busy:busy ,message:''}">
+
+    <div class="col-md-12 bgwhite">
+
+        <!--start heading section-->
+        <h3 i18n>Course Inquiry</h3>
+        <!--end heading section-->
+
+        <!--start form section-->
+        <div class="table-responsive">
+            <table class="table table-bordered mtop">
+                <tbody>
+                    <tr>
+                        <th i18n>Employee Data</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <div class="col-sm-4 premove">
+                                    <label i18n>Employee Number</label>
+                                    <input type="text" class="form-control" value="{{courseData.EmpNumber}}" disabled="disabled">
+                                </div>
+                                 <div class="col-sm-8 premove">
+                                    <label i18n>Full Name</label>
+                                    <input type="text" class="form-control" value="{{courseData.EmpFullName}}" disabled="disabled">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="clearfix space"></div>
+
+        <!--start grid section-->
+        <div class="table-responsive">
+            <div>
+                <table class="table table-bordered mtop" cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+                    <tbody>
+                        <tr style="color:White;">
+                            <th scope="col" i18n>Name</th>
+                            <th scope="col" i18n>Point</th>
+                            <th scope="col" i18n>Location</th>
+                            <th scope="col" i18n>Date</th>
+                            <th scope="col" i18n>Duration</th>
+                        </tr>
+                        <tr *ngIf="courseData.CourseInfoList==undefined || courseData.CourseInfoList.length ==0">
+                            <td colspan="5" i18n>No data</td>
+                        </tr>
+                        <tr *ngFor="let o of courseData.CourseInfoList">
+                            <td>{{o.Name}}</td>
+                            <td>{{o.Point}}</td>
+                            <td>{{o.Location}}</td>
+                            <td>{{o.Date}}</td>
+                            <td>{{o.Duration}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <!--end form section-->
+    </div>
+
+
+
+</div>

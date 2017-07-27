@@ -1,0 +1,144 @@
+<div class="container">
+
+    <div class="col-md-12 bgwhite" [ngBusy]="{busy:busy ,message:''}">
+
+        <!--start heading section-->
+        <h3 i18n>Deputation Inquiry</h3>
+        <!--end heading section-->
+
+        <!--start form section-->
+        <div class="table-responsive">
+            <table class="table table-bordered mtop">
+                <tbody>
+                    <tr>
+                        <th i18n>Employee Data</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <div class="col-sm-7 premove">
+                                    <label i18n>Full Name</label>
+                                    <input type="text" class="form-control" value="{{deputationData.EmpFullName}}" disabled="disabled">
+                                </div>
+                                <div class="col-sm-3 premove">
+                                    <label i18n>Employee Number</label>
+                                    <input type="text" class="form-control" value="{{deputationData.EmpNumber}}" disabled="disabled">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="clearfix space"></div>
+
+        <!--start grid section-->
+        <div class="table-responsive">
+            <div>
+                <table class="table table-bordered mtop" cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+                    <tbody>
+                        <tr style="color:White;">
+                            <th scope="col" i18n>Decision No.</th>
+                            <th scope="col" i18n>Year</th>
+                            <th scope="col" i18n>Month</th>
+                            <th scope="col" i18n>Submit Date</th>
+                            <th scope="col" i18n>Payroll No.</th>
+                            <th scope="col" i18n>No. of Days</th>
+                            <th scope="col" i18n>Payroll Type</th>
+                            <th scope="col">&nbsp;</th>
+                        </tr>
+                        <tr *ngIf="deputationData.DeputationInfoList==undefined || deputationData.DeputationInfoList.length ==0">
+                            <td colspan="8" i18n>No data</td>
+                        </tr>
+                        <tr *ngFor="let o of deputationData.DeputationInfoList">
+                            <td>{{o.DecisionNo}}</td>
+                            <td>{{o.Year}}</td>
+                            <td>{{o.Month}}</td>
+                            <td>{{o.SubmitDate}}</td>
+                            <td>{{o.PayrollNo}}</td>
+                            <td>{{o.NumberofDays}}</td>
+                            <td>{{o.PayrollType}}</td>
+                            <td>
+                                <button (click)="openDetails(o.DecisionNo)" class="btn btn-default" i18n>Details</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <!--end form section-->
+    </div>
+
+
+    <modal #modal>
+        <modal-header [show-close]="true">
+            <h4 class="modal-title" i18n>Details</h4>
+        </modal-header>
+        <modal-body>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <div class="col-sm-12 premove">
+                                    <label class="red" i18n>Decision No.</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.DecisionNo}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Deputation allowance</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.Deputation}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Bonuses</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.BounsAct}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Medicine allowance</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.Midical}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Transportation allowance</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.Transportation}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Book allowance</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.Books}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Registration Fees</label>
+                                    <input type="text" class="form-control" disabled="disabled" disabled="disabled" value="{{detailsData.Expenses4}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Erkab allowance</label>
+                                    <input type="text" class="form-control" disabled="disabled" disabled="disabled" value="{{detailsData.Booking}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Printing allowance</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.Printing}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Total</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.Total}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label i18n>Clothing allowance</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.Clothing}}">
+                                </div>
+                                <div class="col-sm-12 premove">
+                                    <label class="red" i18n>Net</label>
+                                    <input type="text" class="form-control" disabled="disabled" value="{{detailsData.Net}}">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </modal-body>
+        <modal-footer>
+            <button type="button" class="btn btn-default" (click)="modal.close()" i18n>Ok</button>
+        </modal-footer>
+    </modal>
+</div>

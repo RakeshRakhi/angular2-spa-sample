@@ -1,0 +1,137 @@
+<div class="container">
+    <div class="col-md-12 bgwhite" [ngBusy]="{busy:busy ,message:''}">
+        <!--start heading section-->
+        <h3 i18n>Vacation Inquiry</h3>
+        <!--end heading section-->
+        <!--start form section-->
+        <div class="table-responsive">
+            <table class="table table-bordered mtop">
+                <tbody>
+                    <tr>
+                        <th>Employee Data </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <div class="col-sm-2 premove">
+                                    <label i18n>Holiday Type</label>
+                                    <input class="form-control" disabled="disabled" value="{{vacationInqueryData.TypeId}}"
+                                        type="text">
+                                </div>
+                                <div class="col-sm-4 premove">
+                                    <label>&nbsp;</label>
+                                    <input class="form-control" disabled="disabled" id="ContentPlaceHolder1_type"
+                                        value="{{vacationInqueryData.Type}}" type="text">
+                                </div>
+                                <div class="col-sm-2 premove">
+                                    <label i18n>Employee number</label>
+                                    <input class="form-control" disabled="disabled" id="ContentPlaceHolder1_no"
+                                        value="{{vacationInqueryData.EmpNumber}}" type="text">
+                                </div>
+                                <div class="col-sm-4 premove">
+                                    <label>&nbsp;</label>
+                                    <input class="form-control" disabled="disabled" id="ContentPlaceHolder1_name"
+                                        value="{{vacationInqueryData.EmpFullName}}" type="text">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered mtop">
+                <tbody>
+                    <tr>
+                        <th i18n>Balance Details</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <div class="col-sm-2 premove">
+                                    <label i18n>Total balance</label>
+                                    <input class="form-control" disabled="disabled" value="{{vacationInqueryData.Total}}"
+                                        type="text">
+                                </div>
+                                <div class="col-sm-2 premove">
+                                    <label i18n>Excluded balance</label>
+                                    <input class="form-control" disabled="disabled" value="{{vacationInqueryData.Excluded}}"
+                                        type="text">
+                                </div>
+                                <div class="col-sm-2 premove">
+                                    <label i18n>Actual balance</label>
+                                    <input class="form-control" disabled="disabled" value="{{vacationInqueryData.Actual}}"
+                                        type="text">
+                                </div>
+                                <div class="col-sm-2 premove">
+                                    <label i18n>Taken balance</label>
+                                    <input class="form-control" disabled="disabled" value="{{vacationInqueryData.Taken}}"
+                                        type="text">
+                                </div>
+                                <div class="col-sm-2 premove">
+                                    <label i18n>Available balance</label>
+                                    <input class="form-control" disabled="disabled" value="{{vacationInqueryData.Available}}"
+                                        type="text">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="clearfix space"></div>
+        <!--start grid section-->
+        <div class="table-responsive">
+            <div>
+                <table border="1" cellspacing="0" class="table table-bordered mtop" id="ContentPlaceHolder1_infoData" rules="all" style="border-collapse:collapse;">
+                    <tbody>
+                        <tr style="color:White;">
+                            <th scope="col" i18n>
+                                Decision No.
+                            </th>
+                            <th scope="col" i18n>
+                                Date of Decision
+                            </th>
+                            <th scope="col" i18n>
+                                Vacation Type
+                            </th>
+                            <th scope="col" i18n>
+                                Start Date
+                            </th>
+                            <th scope="col" i18n>
+                                Duration
+                            </th>
+                            <th scope="col" i18n>
+                                End Date
+                            </th>
+                            <th scope="col" i18n>
+                                From
+                            </th>
+                            <th scope="col" i18n>
+                                To
+                            </th>
+                        </tr>
+                              <tr *ngIf=" vacationInqueryData.VacationInfoList==undefined ||  vacationInqueryData.VacationInfoList.length ==0">
+                            <td colspan="8" i18n>No data</td>
+                        </tr>
+                        <tr *ngFor="let v of vacationInqueryData.VacationInfoList">
+                            <td>{{v.DirectiveNo}}</td>
+                            <td>{{v.DirectiveDate}}</td>
+                            <td>{{v.LeaveTypeCode}}</td>
+                            <td>{{v.LeaveStartDate}}</td>
+                            <td>{{v.LeaveDays}}</td>
+                            <td>{{v.LeaveEndDate}}</td>
+                            <td>{{v.PeriodFrom}}</td>
+                            <td>{{v.PeriodTo}}</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div> 
+        <div class="clearfix"></div>
+         
+            <!--end grid section-->
+            <!--end form section-->
+    </div>
+</div>

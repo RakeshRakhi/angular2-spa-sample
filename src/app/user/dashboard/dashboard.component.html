@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="images/dashboard_header.jpg" class="img-responsive">
+
+        <!-- Tabs -->
+      <ul class="tabs">
+            <li *ngFor="let tab of tabs; let i=index" class="{{i==0 ? 'active':''}}"  id="{{'tab' + (i+1)}}" >
+              <img [src]="tab['ImageUrl']"><br/>{{tab['TitleEn']}}</li>
+  
+        </ul>
+
+      <div class="tab_container">
+          <ng-container *ngFor="let tab of tabs; let i=index">
+              <!-- #tab1 -->
+              <h3 class="{{i==0?'d_active':''}} tab_drawer_heading" id="{{'tab' + (i+1)}}">{{tab['TitleEn']}}</h3>
+              <div [id]="'tab'+ (i+1)" class="tab_content">
+                  <!-- Row -->
+                  <div class="row">
+                      <!-- S1 -->
+                      <div class="col-md-3" *ngFor="let item of tab.TabItems">
+                          <a [href]="item.Link" target="{{item.Target?'_blank':''}}">
+                              <div class="content-item">
+                                  <div class="content-align">
+                                      <img [src]="item.ImageUrl"><br /> {{item['TitleEn']}}
+                                  </div>
+                                  <div class="overlay"></div>
+                                  <div class="overlay-content">
+                                      <strong>{{item['TitleEn']}}</strong><br />{{item['DescriptionEn']}}
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                      <!-- S1 -->
+                     
+                  </div>
+                  <!-- Row -->
+              </div>
+              <!-- #tab1 -->
+          </ng-container>
+
+      </div>
+        <!-- Tabs -->
+
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- jQuery -->

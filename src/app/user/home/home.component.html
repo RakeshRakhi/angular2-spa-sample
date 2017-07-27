@@ -1,0 +1,160 @@
+<div class="container">
+    <!-- My Slider -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="carousel-holder">
+                <div id="myslider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item {{i==0? 'active':''}}" *ngFor="let img of sliderImage; let i = index">
+                            <img class="slide-image" [src]="img.Link">
+                            <div class="carousel-caption">
+                                <div class="heading">{{img.Caption}}</div>
+                                {{img.Description}}
+                            </div>
+                        </div>
+
+                    </div>
+                    <ol class="carousel-indicators">
+                        <a data-target="#myslider" data-slide-to="0" class="mouse" >
+                            <img src="images/left.png" class="move">
+                        </a>
+                        <a data-target="#myslider" data-slide-to="1" class="mouse">
+                            <img src="images/right.png" class="move">
+                        </a>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6 news">
+                        <!-- News -->
+                        <div class="heading" i18n>News</div>
+                        <div id="news" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item {{i == 0?'active':''}}" [innerHtml]="new['DescriptionEn']" *ngFor="let new of news; let i = index">
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <a data-target="#news" data-slide-to="0" class="mouse">
+                                <img src="images/left.png" class="move">
+                            </a>
+                            <a data-target="#news" data-slide-to="1" class="mouse">
+                                <img src="images/right.png" class="move">
+                            </a>
+                        </ol>
+                        <!-- News -->
+                    </div>
+                    <div class="col-md-6 nopadding" *ngIf="role == 'Student'">
+                        <a href="#" class="mouse">
+                            <div class="col-md-3 c2 text-center">
+                                <img src="images/acad_icon.png"><br> SIS <br> System
+
+
+                            </div>
+                        </a>
+                        <a href="https://ezp.uod.edu.sa/" class="mouse">
+                            <div class="col-md-3 c1 text-center">
+                                <img src="images/admin_icon.png"><br> Digital <br> Library
+                            </div>
+                        </a>
+                        <a href="/csso/redirect/BlackBoard" class="mouse">
+                            <div class="col-md-3 c2 text-center">
+                                <img src="images/class.png"><br> E-Learning <br> 
+                            </div>
+                        </a>
+                        <a href="#/student/calender" class="mouse">
+                            <div class="col-md-3 c1 text-center">
+                                <img src="images/community_icon.png"><br> Event <br> Calendar
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 nopadding" *ngIf="role == 'Employee'">
+                        <a [routerLink]="['/user/dashboard','tab1']" class="mouse">
+                            <div class="col-md-3 c2 text-center">
+                                <img src="images/admin_icon.png"><br/>
+
+                                <!--i18n -->
+                                Administration <br/> Services
+                                <!--/i18n-->
+
+                            </div>
+                        </a>
+                        <a [routerLink]="['/user/dashboard','tab2']" class="mouse">
+                            <div class="col-md-3 c1 text-center">
+                                <img src="images/acad_icon.png"><br/>
+                                <!--i18n -->Academic & Research
+                                <!--/i18n -->
+                            </div>
+                        </a>
+                        <a [routerLink]="['/user/dashboard','tab3']" class="mouse">
+                            <div class="col-md-3 c2 text-center">
+                                <img src="images/it_icon.png"><br/>
+                                <!--i18n -->IT <br/> Services
+                                <!--/i18n -->
+                            </div>
+                        </a>
+                        <a [routerLink]="['/user/dashboard','tab4']" class="mouse">
+                            <div class="col-md-3 c1 text-center">
+                                <img src="images/community_icon.png"><br/>
+                                <!--i18n -->Community <br/> Services
+                                <!--/i18n -->
+                            </div>
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ng-container *ngIf="role == 'Employee'">
+                        <!-- Left Picture -->
+                        <div class="col-md-6 nopadding">
+                            <img src="images/leftpic.jpg" class="img-responsive" style="width: 100%;">
+</div>
+<!--Left Picture -->
+<!-- New Services -->
+<div class="col-md-6 nopadding">
+    <div class="col-md-12 c3">
+        <div class="heading" i18n>New Services Offer</div>
+        <!--i18n -->DICT Pleasure to announce the following new services
+        <!--/i18n -->
+    </div>
+    <a href="#" class="mouse">
+        <div class="col-md-3 c4 text-center">
+            <img src="images/update_info_home.png"><br/>
+           <ng-container i18n>Information <br/> Update
+           </ng-container>
+        </div>
+    </a>
+    <a href="#"
+        class="mouse">
+        <div class="col-md-3 c4 text-center">
+            <img src="images/software_request_home.png"><br/>
+            <!--i18n -->Software <br/> Request
+            <!--/i18n -->
+        </div>
+    </a>
+    <a href="#" class="mouse">
+        <div class="col-md-3 c4 text-center">
+            <img src="images/engag_request_home.png"><br/>
+            <!--i18n -->Engagement <br/> Request
+            <!--/i18n -->
+        </div>
+    </a>
+    <a href="#" class="mouse">
+        <div class="col-md-3 c4 text-center">
+            <img src="images/question_pro_home.png"><br/>
+            <!--i18n -->Question <br/> Pro
+            <!--/i18n -->
+        </div>
+    </a>
+</div>
+
+</ng-container>
+<!-- New Services -->
+</div>
+</div>
+
+</div>
+</div>
+</div>

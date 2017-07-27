@@ -1,0 +1,73 @@
+<div class="container">
+    <div class="col-md-12 bgwhite">
+        <br>
+        <h3 i18n>Decision</h3>
+        <!-- Row -->
+        <div class="row mtop">
+            <div class="col-md-12 mtop">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <input type="text" class="form-control" i18n-placeholder placeholder="Decision Subject" #sub (change)="SubjectFilter(sub.value)">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" i18n-placeholder placeholder="Authority" #auth (change)="AuthorityFilter(auth.value)">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" i18n-placeholder placeholder="Decision Number" #dno (change)="NumberFilter(dno.value)">
+                    </div>
+
+                    <button class="btn btn-default" i18n>Search</button>
+                </div>
+            </div>
+            <!-- Grid -->
+            <div class="col-md-12 mtop">
+                <div class="table-responsive">
+                    <table class="table table-bordered mtop" [mfData]="dataList" [mfRowsOnPage]="25" #mf="mfDataTable">
+                        <tbody>
+                            <tr>
+                                <th i18n>Decision</th>
+                                <th i18n>Authority</th>
+                                <th i18n>Decision Date (H)</th>
+                                <th i18n>Decision Number</th>
+                            </tr>
+
+                            <tr *ngIf="mf.data.length ==0">
+                                <td colspan="4" i18n>No data</td>
+
+                            </tr>
+                            <tr class="active" *ngFor="let item of mf.data">
+                                <td *ngIf="!checkMediaUrl(item.FileUrl, '/media') else fullUrl" >
+                                    <a target="_blank" href="/media/Decision/{{item.FileUrl}}" class="arfont">{{item.Decision}}</a>
+                                </td>
+                                <ng-template #fullUrl>
+                                    <td>
+                                        <a target="_blank" href="{{item.FileUrl}}"  class="arfont">{{item.Decision}}</a>
+                                    </td>
+                                </ng-template>
+
+                                <td  class="arfont">{{item.Authority}}</td>
+                                <td>{{item.DecisionDate}}</td>
+                                <td>{{item.DecisionNumber}}</td>
+                            </tr>
+
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">
+                                   
+                                        <mfBootstrapPaginator [rowsOnPageSet]="[5,10,25]"></mfBootstrapPaginator>
+                                    
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <!-- Grid -->
+            <!-- Pagination -->
+
+            <!-- Pagination -->
+        </div>
+        <!-- Row -->
+    </div>
+</div>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IAU E-Services Portal</title>
+  <link href="./src/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./src/assets/css/enstyle.css" title="main" rel="stylesheet">
+  <link href="./src/assets/css/brown.css" title="brown" rel="stylesheet">
+  <link href="./src/assets/css/purple.css" title="purple" rel="stylesheet">
+  <link href="./src/assets/css/green.css" title="green" rel="stylesheet">
+  <link href="./src/assets/css/pink.css" title="pink" rel="stylesheet">
+  <link href="./src/assets/css/blue.css" title="blue" rel="stylesheet">
+  <link href="./src/assets/css/arfont.css" rel="stylesheet">
+  <link rel="stylesheet" href="./src/assets/css/busy.css">
+  <link rel="stylesheet" href="./src/assets/css/loading.css">
+  <link rel="shortcut icon" href="./src/assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./src/assets/favicon.ico" type="image/x-icon">
+
+
+  <script>
+    var lang = localStorage.getItem('lang') == undefined ? "en" : localStorage.getItem('lang');
+    document.locale = lang;
+
+    function createLink(id, url) {
+      var link = document.createElement('link');
+      link.id = id;
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = url;
+      return link;
+    }
+    if (localStorage.getItem('lang') === "ar") {
+      var arStyle = this.createLink(0, "./src/assets/css/bootstrap.min_ar.css");
+      var arStyle2 = this.createLink(1, "./src/assets/css/arstyle.css");
+      document.head.appendChild(arStyle);
+      document.head.appendChild(arStyle2);
+      document.title = "الخدمات الالكترونية - جامعة الامام عبد الرحمن بن فيصل";
+    }
+  </script>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <base href="/" />
+</head>
+<body>
+
+  <app-root>
+    <div class="cssload-thecube">
+      <div class="cssload-cube cssload-c1"></div>
+      <div class="cssload-cube cssload-c2"></div>
+      <div class="cssload-cube cssload-c4"></div>
+      <div class="cssload-cube cssload-c3"></div>
+    </div>
+    <!-- Preloader with Bootstrap Progress Bar -->
+  </app-root>
+  <!-- Footer -->
+  <!-- jQuery -->
+  <script src="./src/assets/js/theme.js"></script>
+  <script src="./src/assets/js/jquery.js"></script>
+  <script src="./src/assets/js/bootstrap.min.js"></script>
+  <script src="./src/assets/js/tabs.js"></script>
+  <script src="./src/assets/js/calendar.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('body').on('click', "ul.nav >li> a", function () {
+        $('.navbar-collapse.in').collapse('hide');
+      });
+    });
+  </script>
+
+
+ <script type="text/javascript" src="http://localhost:4200/inline.bundle.js"></script>
+    <script type="text/javascript" src="http://localhost:4200/polyfills.bundle.js"></script>
+    <script type="text/javascript" src="http://localhost:4200/styles.bundle.js"></script>
+    <script type="text/javascript" src="http://localhost:4200/vendor.bundle.js"></script>
+    <script type="text/javascript" src="http://localhost:4200/main.bundle.js"></script>
+  <!-- 
+  <script type="text/javascript" src="~/dist/inline.23b4aec3203454e739c2.bundle.js"></script>
+  <script type="text/javascript" src="~/dist/polyfills.c6002f30b5b17b69b998.bundle.js"></script>
+  <script type="text/javascript" src="~/dist/vendor.2d4da2ebbae7f2742a45.bundle.js"></script>
+  <script type="text/javascript" src="~/dist/main.448f6d509c4e072dadff.bundle.js"></script>-->
+</body>
+</html>

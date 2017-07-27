@@ -1,0 +1,60 @@
+[
+    {
+        "TitleEn": "Administration Services",
+        "TitleAr": "الخدمات الادارية",
+        "ImageUrl": "/images/admin_icon.png",
+        "TabItems": [
+            {
+                "TitleEn": "Salary Slip",
+                "TitleAr": "تفاصيل راتب",
+                "Link": "#/user/salaryslip",
+                "SsoPram": "#",
+                "ImageUrl": "/images/salary_slip.png",
+                "DescriptionAr": "تقرير مفصل بجميع البنود لراتب الموظف",
+                "DescriptionEn": "A detailed report of all the items to the employee's salary.",
+                "Target": false
+            },
+            {
+                "TitleEn": "Salary Certificate",
+                "TitleAr": "شهادة الراتب",
+                "Link": "#/user/salary-certificate",
+                "SsoPram": null,
+                "ImageUrl": "/images/salary_cert.png",
+                "DescriptionAr": "شهادة الراتب\r\nطباعة نموذج خطاب التعريف الرسمي بالراتب/بدون للموظف باللغتين العربية أو الإنجليزية",
+                "DescriptionEn": "Salary Certificate\r\nPrint an official definition letter without salary for the employee Both English or Arabic versions.",
+                "Target": false
+            }
+             
+        ]
+    },
+    {
+        "TitleEn": "Academic & Research Services",
+        "TitleAr": "خدمات أكاديمية وبحثية",
+        "ImageUrl": "/images/acad_icon.png",
+        "TabItems": [
+            {
+                "TitleEn": "SIS System",
+                "TitleAr": "نظام سجلات الطلاب",
+                "Link": "",
+                "SsoPram": null,
+                "ImageUrl": "/images/sis.png",
+                "DescriptionAr": "نظام سجلات الطلاب\r\nنظام يختص بجميع بيانات الطلاب والطالبات الشخصية والأكاديمية",
+                "DescriptionEn": "SIS System\r\nStudent Information System to manage all personal and academic data",
+                "Target": true
+            },
+             
+            {
+                "TitleEn": "Digital Library",
+                "TitleAr": "المكتبة الرقمية",
+                "Link": "#",
+                "SsoPram": null,
+                "ImageUrl": "/images/library.png",
+                "DescriptionAr": "المكتبة الرقمية\r\nالنظام الإلكتروني لمكتبة الجامعة لاستعراض جميع قواعد البيانات مع إمكانية البحث",
+                "DescriptionEn": "Digital Library\r\nThe electronic system of the university library to review all databases with the ability to search",
+                "Target": true
+            }
+           
+        ]
+    }
+   
+]

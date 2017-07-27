@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="col-md-12 bgwhite"><br>
+        <h3 i18n>Salary Slip</h3> ({{salaryData.SalaryDate}})
+        
+            <div class="clearfix"></div>
+        
+        <div class="col-md-6 nopadding" id="prlremove">
+            <div class="table-responsive mtop">
+                <table id="r1:dt1" class="table table-bordered" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                    <tbody>
+                        <tr>
+                            <th colspan="2" scope="colgroup" i18n>Allowances </th>
+                        </tr>
+                        <tr *ngFor="let item of salaryData.Allowances">
+                            <td>{{item.ALLOWANCE_NAME}} </td>
+                            <td>{{item.ALLOWANCE_AMOUNT}} </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6 nopadding" id="d1">
+            <div class="table-responsive mtop">
+                <table id="r1:dt2" class="table table-bordered" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                    <tbody>
+                        <tr>
+                            <th colspan="2" scope="colgroup" i18n> Deduction</th>
+                        </tr>
+                        <tr *ngFor="let item of salaryData.Detection">
+                            <td>{{item.ALLOWANCE_NAME}} </td>
+                            <td>{{item.ALLOWANCE_AMOUNT}} </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6 nopadding" id="d3">
+            <div class="table-responsive mtop">
+                <table width="100%" cellspacing="0" cellpadding="0" class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th colspan="2" i18n> Summary</th>
+                        </tr>
+                        <tr>
+                            <td width="40%" valign="top" i18n> Total Allowances</td>
+                            <td valign="top">{{salaryData.AllowanceTotal}} S.R</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" i18n>Total Deductions</td>
+                            <td valign="top"> {{salaryData.DetectionTotal}} S.R</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" class="spanel" i18n> Net. Salary</td>
+                            <td valign="top"> {{salaryData.NetSalary}} S.R</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

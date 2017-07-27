@@ -1,0 +1,115 @@
+<!-- SOCIAL ICONS -->
+
+<div class="sticky-container">
+  <ul class="sticky">
+    <li>
+      <a href="#" target="_blank"><img src="images/fb.png" /></a>
+      <p i18n>Facebook</p>
+    </li>
+    <li>
+      <a href="#" target="_blank"><img src="images/tw.png" /></a>
+      <p i18n>Twitter</p>
+    </li>
+    <li>
+      <a href="#" target="_blank"><img src="images/yt.png" /></a>
+      <p i18n>Youtube</p>
+    </li>
+  </ul>
+</div>
+<!-- SOCIAL ICONS -->
+
+<!-- Top Section -->
+<div class="container">
+
+  <!-- Colors -->
+  <div class="col-md-6 top nopadding">
+    <div class="calign">
+      <a class="color pink" onclick="switch_style('pink');return false;" name="theme" value="pink" href="#"></a>
+      <a class="color brown" onclick="switch_style('brown');return false;" name="theme" value="brown" href="#"></a>
+      <a class="color purple" onclick="switch_style('purple');return false;" name="theme" value="purple" href="#"></a>
+      <a class="color green" onclick="switch_style('green');return false;" name="theme" value="green" href="#"></a>
+      <a class="color blue" onclick="switch_style('blue');return false;" name="theme" value="blue" href="#"></a>
+    </div>
+  </div>
+  <!-- Colors -->
+  <!-- Menu -->
+  <div class="col-md-6 nopadding">
+    <div class="mright">
+      <nav-top></nav-top>
+    </div>
+  </div>
+  <!-- Menu -->
+</div>
+<!-- Top Section -->
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <!-- Logo -->
+    <div class="col-md-4 nopadding">
+      <div class="logo">
+      
+      </div>
+    </div>
+    <!-- Logo -->
+    <!-- Search -->
+    <div class="col-md-3 nopadding search pull-right">
+      <div class="navbar-form">
+        <div class="input-group">
+        </div>
+      </div>
+    </div>
+    <!-- Search -->
+  </div>
+
+  <!-- My Navigation -->
+  <div class="container">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp; {{name}}</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a [routerLink]="['home']"><i class="glyphicon glyphicon-home"></i></a></li>
+          <li *ngFor="let link of mainMenu">
+            <a [href]="link.link" [text]="link.title" target="{{link.newWindow?'_blank':'_parent'}}"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="magenta"></div>
+  </div>
+  <!-- My Navigation -->
+
+</header>
+<!-- Header -->
+
+<!-- Page Content -->
+<router-outlet></router-outlet>
+
+<!-- /.container -->
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="copyright">
+      <div class="col-md-6 nopadding">
+        <div class="copytag" i18n>© 2017 Demo Angular Dynamic SPA.  </div>
+      </div>
+      <div class="col-md-6 nopadding">
+        <div class="mright">
+          <span class="btn btn-primary white"><strong i18n>MOBILE APPS </strong></span>
+          <a href="#" target="_blank" class="btn btn-primary"><img src="images/ios.png"></a>
+          <a href="#" target="_blank" class="btn btn-primary bright"><img src="images/android.png"></a>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+   <file source-language="en" datatype="plaintext" original="ng2.template">
+      <body>
+         <trans-unit id="2da355b82858b21e19bf6b5d1062f3259b1e6d7e" datatype="html">
+            <source>IAU E-Services Login</source>
+            <target>الخدمات الالكترونية</target>
+         </trans-unit>
+         <trans-unit id="ec984ab36f1da5f75ba43f9bd4b866ca9c7e6493" datatype="html">
+            <source>Email Address</source>
+            <target>البريد الالكتروني</target>
+         </trans-unit>
+         <trans-unit id="d8b81951d25439864e92f750f7c99d7426d6517c" datatype="html">
+            <source>password</source>
+            <target>كلمة السر</target>
+         </trans-unit>
+         <trans-unit id="a5274c6b827c79fef17edd57c1adbb4f5c0ef08d" datatype="html">
+            <source>User name or password is wrong.</source>
+            <target>اسم المستخدم او كلمة المرور غير صحيح.</target>
+         </trans-unit>
+         <trans-unit id="3eb49d60bd859eb2d9d3a6d380cdf4e0b8252333" datatype="html">
+            <source>Remember me</source>
+            <target>تذكرني</target>
+         </trans-unit>
+         <trans-unit id="9e58dfa6c0a452d8333674cd6aa497d392b1c633" datatype="html">
+            <source>LOGIN</source>
+            <target>تسجيل الدخول</target>
+         </trans-unit>
+         <trans-unit id="e9cebca41f2a0baf5d77e01dfef3b79b84fb8e53" datatype="html">
+            <source>Forgot Password ?</source>
+            <target>نسيت كلمة السر</target>
+         </trans-unit>
+         <trans-unit id="ee1507cecb475273733ff8aa005502761e909f12" datatype="html">
+            <source>Change Password ?</source>
+            <target>تغير كلمة المرور</target>
+         </trans-unit>
+         <trans-unit id="d17054fae5b59c5594cb2b214e98ca5d6fb03e5b" datatype="html">
+            <source>Ask For Help</source>
+            <target>المساعدة</target>
+         </trans-unit>
+         <trans-unit id="1c4d286ce466c1b6d8d2c9bcbe866343d530ea42" datatype="html">
+            <source>عربي</source>
+            <target>English</target>
+         </trans-unit>
+         <trans-unit id="1c4d286ce466c1b6d8d2c9bcbe866343d530ea47" datatype="html">
+            <source>LOGIN</source>
+            <target>تسجيل الدخول</target>
+         </trans-unit>
+         <trans-unit id="1d0974afae70914072a4fbf19e53328e517bae73" datatype="html">
+            <source>News</source>
+            <target>الاخبار</target>
+         </trans-unit>
+         <trans-unit id="26fa7b6be73eaca41c532f253d6da63b8ff8cda4" datatype="html">
+            <source>
+               SIS
+               <x id="LINE_BREAK" ctype="lb" />
+               System
+            </source>
+            <target>
+               نظام
+               <x id="LINE_BREAK" ctype="lb" />
+               سجلات الطلاب
+            </target>
+         </trans-unit>
+         <trans-unit id="d6c48d3324b73819008f67785735be89e29c217f" datatype="html">
+            <source>
+               Digital
+               <x id="LINE_BREAK" ctype="lb" />
+               Library
+            </source>
+            <target>
+               المكتبة
+               <x id="LINE_BREAK" ctype="lb" />
+               الرقمية
+            </target>
+         </trans-unit>
+         <trans-unit id="6962621db3538223ca03b3261a3126bc46ca9b13" datatype="html">
+            <source>
+               Class
+               <x id="LINE_BREAK" ctype="lb" />
+               Schedule
+            </source>
+            <target>
+               الجدول
+               <x id="LINE_BREAK" ctype="lb" />
+               الدراسي
+            </target>
+         </trans-unit>
+         <trans-unit id="4b332b78e393fb9d145182810338d3da56abbd59" datatype="html">
+            <source>
+               Event
+               <x id="LINE_BREAK" ctype="lb" />
+               Calendar
+            </source>
+            <target>
+               جدول
+               <x id="LINE_BREAK" ctype="lb" />
+               الفعاليات
+            </target>
+         </trans-unit>
+         <trans-unit id="e523aaa64062bf8e3a965a98126a2f5f80c45753" datatype="html">
+            <source>Administration <x id="LINE_BREAK" ctype="lb" /> Services</source>
+            <target>الخدمات <x id="LINE_BREAK" ctype="lb" /> الاداريه</target>
+         </trans-unit>
+         <trans-unit id="b4b43bc8dad71f05f68ccdecd88c0e4b0e7e84eb" datatype="html">
+            <source>Academic &amp; Research</source>
+            <target>خدمات اكاديمية وبحثية</target>
+         </trans-unit>
+         <trans-unit id="ef74a60481711ee3096040e6749d0f142ba1f8a7" datatype="html">
+            <source>
+               IT
+               <x id="LINE_BREAK" ctype="lb" />
+               
+            </source>
+            <target>
+               خدمات
+               <x id="LINE_BREAK" ctype="lb" />
+               تقنيه المعلومات
+            </target>
+         </trans-unit>
+         <trans-unit id="81d14076775e5a30dd3941de6dfa0e073ceabb49" datatype="html">
+            <source>Community  <x id="LINE_BREAK" ctype="lb" /> Services</source>
+            <target>خدمة <x id="LINE_BREAK" ctype="lb" /> المجتمع</target>
+         </trans-unit>
+         <trans-unit id="2d16e54188ff2531524634cc15786b891b75f46f" datatype="html">
+            <source>New Services Offer</source>
+            <target>الخدمات الجديدة</target>
+         </trans-unit>
+         <trans-unit id="023b721107bb636eb37d9e2609339e3771948b84" datatype="html">
+            <source>DICT Pleasure to announce the following new services</source>
+            <target>آخر القرارات الصادرة من المجلس العلمي</target>
+         </trans-unit>
+         <trans-unit id="d9d1f896a428d9034e44c87ba2a6255ea3219f7b" datatype="html">
+            <source>
+               Information
+               <x id="LINE_BREAK" ctype="lb" />
+               Update
+            </source>
+            <target>
+               تحديث
+               <x id="LINE_BREAK" ctype="lb" />
+               المعلومات
+            </target>
+         </trans-unit>
+         <trans-unit id="c9161f5f5f496aa71ada0cec891beec76d1c3ca4" datatype="html">
+            <source>
+               Software
+               <x id="LINE_BREAK" ctype="lb" />
+               Request
+            </source>
+            <target>
+               طلب
+               <x id="LINE_BREAK" ctype="lb" />
+               برامج
+            </target>
+         </trans-unit>
+         <trans-unit id="90a62c95a5d076e52a843e7d105fd0d1ab8c00f7" datatype="html">
+            <source>
+               Engagement
+               <x id="LINE_BREAK" ctype="lb" />
+               Request
+            </source>
+            <target>
+               طلب
+               <x id="LINE_BREAK" ctype="lb" />
+               مباشرة عمل
+            </target>
+         </trans-unit>
+         <trans-unit id="facd8c574467ad331818df1d345d2f2ea958447f" datatype="html">
+            <source>
+               Question
+               <x id="LINE_BREAK" ctype="lb" />
+               Pro
+            </source>
+            <target>
+               نظام الاستبيانات الالكتروني
+            </target>
+         </trans-unit>
+         <trans-unit id="1775cd773b8452259c697c4969a441541e7f5557" datatype="html">
+            <source>Decision</source>
+            <target>القرار</target>
+         </trans-unit>
+         <trans-unit id="db3568fc3de1a2ced6e0d9a1e64f5136efe7ac79" datatype="html">
+            <source>Circular</source>
+            <target>التعاميم</target>
+         </trans-unit>
+         <trans-unit id="7e892ba15f2c6c17e83510e273b3e10fc32ea016" datatype="html">
+            <source>Search</source>
+            <target>بحث</target>
+         </trans-unit>
+         <trans-unit id="b0d23d6ebf965718e595c77b85e92c07aa19c470" datatype="html">
+            <source>Authority</source>
+            <target>صاحب القرار</target>
+         </trans-unit>
+         <trans-unit id="3fb3d2bb23c1f9bcdf9661efb3c789d33bc93b3e" datatype="html">
+            <source>Decision Date (H)</source>
+            <target>تاريخ القرار</target>
+         </trans-unit>
+         <trans-unit id="7c0773847a3302495756d0685fea2e4d15abc036" datatype="html">
+            <source>Circular Date (H)</source>
+            <target>تاريخ التعميم</target>
+         </trans-unit>
+         <trans-unit id="c60231454ff6c65f165babbb81ec4b941d1c496c" datatype="html">
+            <source>Decision Number</source>
+            <target>رقم القرار</target>
+         </trans-unit>
+         <trans-unit id="7ee72f689a2e9ec07e59b6f46a486ca0b50c1f6f" datatype="html">
+            <source>Circular Number</source>
+            <target>رقم القرار</target>
+         </trans-unit>
+         <trans-unit id="0901cdec3b016e47e00c3b4d1e0224679ab22d5c" datatype="html">
+            <source>Decision Subject</source>
+            <target>عنوان القرار</target>
+         </trans-unit>
+         <trans-unit id="dbbd93c3409d197cd718c5639fb4a22adca3ba2e" datatype="html">
+            <source>Circular Subject</source>
+            <target>عنوان التعميم</target>
+         </trans-unit>
+         <trans-unit id="856ac1930d5afc3c99442144664acb16faed6837" datatype="html">
+            <source>Administrative Guide</source>
+            <target>الدليل الاداري</target>
+         </trans-unit>
+         <trans-unit id="531d90a5c8fa11adf3f5e9a4103c25812a1b0929" datatype="html">
+            <source>Forms</source>
+            <target>النماذج</target>
+         </trans-unit>
+         <trans-unit id="62c6e9aecff7e04ef7d36fdee4ab4fb285a7a2b5" datatype="html">
+            <source>Contact Information</source>
+            <target>معلومات الاتصال</target>
+         </trans-unit>
+         <trans-unit id="291d692de43f4128ccdeb52e97ddf4375495f380" datatype="html">
+            <source>Feel free to contact us for any question &amp; query</source>
+            <target>لا تتردد في الاتصال بنا للحصول على أي سؤال واستفسار</target>
+         </trans-unit>
+         <trans-unit id="3ac5d94a2faf70726675c9bf72d9123c618b5928" datatype="html">
+            <source>Deanship of Information and Communication Technology</source>
+            <target>عمادة الاتصالات و تقنية المعلومات</target>
+         </trans-unit>
+         <trans-unit id="9bb912517a6a189cad3756d2ae84d8aff6a7d92d" datatype="html">
+            <source>© 2017 Imam Abdulrahman Bin Faisal University. All rights reserved. </source>
+            <target>© 2017 جامعة الامام عبد الرحمن بن فيصل. كل الحقوق محفوظة.</target>
+         </trans-unit>
+         <trans-unit id="fe2504f5cae9140216aca76d8a06d9cfe147496e" datatype="html">
+            <source>MOBILE APPS</source>
+            <target>تطبيقات الجوال</target>
+         </trans-unit>
+         <trans-unit id="5a29aa68d78b750df76147829bd1f7b2e18d1d9c" datatype="html">
+            <source>Salary Slip</source>
+            <target>تعريف الراتب</target>
+         </trans-unit>
+         <trans-unit id="2ef75245671ff32233b1817131a46b0d4868f834" datatype="html">
+            <source>Allowances</source>
+            <target>البدلات</target>
+         </trans-unit>
+         <trans-unit id="cccfd2c31f6d9b3d1cdb25869606b71074482dc4" datatype="html">
+            <source>Deduction</source>
+            <target>الخصومات</target>
+         </trans-unit>
+         <trans-unit id="f09fdd5a71791358a818e63348884c0896449cd6" datatype="html">
+            <source>Summary</source>
+            <target>الخلاصه</target>
+         </trans-unit>
+         <trans-unit id="7dcb14ede5e4491b20d8d77a00182fb1f098fbb9" datatype="html">
+            <source>Total Allowances</source>
+            <target>مجموع البدلات</target>
+         </trans-unit>
+         <trans-unit id="fa90c4ce1696e2364f05e2764e0cd526604d31a3" datatype="html">
+            <source>Total Deductions</source>
+            <target>مجموع الخصومات</target>
+         </trans-unit>
+         <trans-unit id="28dc64f63ee1f51e3cea0221f8d11235952179eb" datatype="html">
+            <source>Net. Salary</source>
+            <target>الراتب الصافي</target>
+         </trans-unit>
+         <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+            <source>Name</source>
+            <target>الاسم</target>
+         </trans-unit>
+         <trans-unit id="45cc8ca94b5a50842a9a8ef804a5ab089a38ae5c" datatype="html">
+            <source>ID</source>
+            <target>الرقم</target>
+         </trans-unit>
+         <trans-unit id="80ca7978138a1f47899b56a5739fc226267e8a5f" datatype="html">
+            <source>Campus</source>
+            <target>الحرم الجامعي</target>
+         </trans-unit>
+         <trans-unit id="0f89b8ff8aa52b3e54a551e74875b4e6c2892ac0" datatype="html">
+            <source>Medium of Learning</source>
+            <target>متوسطة التعلم</target>
+         </trans-unit>
+         <trans-unit id="aee373e25a06924a73d3be0d3f5f369bda4f3b98" datatype="html">
+            <source>Earned Hrs</source>
+            <target>الساعات المكتسبة</target>
+         </trans-unit>
+         <trans-unit id="81b97b8ea996ad1e4f9fca8415021850214884b1" datatype="html">
+            <source>Status</source>
+            <target>الحالة</target>
+         </trans-unit>
+         <trans-unit id="a2d71311a4dd5507364291ec1d2c64cf16c68225" datatype="html">
+            <source>Degree</source>
+            <target>الدرجة</target>
+         </trans-unit>
+         <trans-unit id="2f70bf1424c5d62a0bde385f2dff09f1089e07f2" datatype="html">
+            <source>Academic Level</source>
+            <target>المستوى الأكاديمي</target>
+         </trans-unit>
+         <trans-unit id="687134b5f01a5de70837d9773ae0aaf9f005a205" datatype="html">
+            <source>College</source>
+            <target>الكلية </target>
+         </trans-unit>
+         <trans-unit id="d8c9d2a0596bfadafdaa6decf3f6f6d911a2dde0" datatype="html">
+            <source>Major</source>
+            <target>التخصص </target>
+         </trans-unit>
+         <trans-unit id="fd52d4242e84904169c5df219919ad671e1fecfa" datatype="html">
+            <source>GPA</source>
+            <target>المعدل التراكمي </target>
+         </trans-unit>
+         <trans-unit id="690d38f45fbc13adaafb1388274bb9d7ea2e3589" datatype="html">
+            <source>Academic Year :</source>
+            <target>السنة الدراسية :</target>
+         </trans-unit>
+         <trans-unit id="e8cde43c8c4527fcda6ddbc08c0bb5b9f9bf3998" datatype="html">
+            <source> College  :</source>
+            <target>الكلية:</target>
+         </trans-unit>
+         <trans-unit id="50fbfd2fc85240525a7e1d25544d30d6ea3991de" datatype="html">
+            <source>Major :</source>
+            <target>التخصص العام :</target>
+         </trans-unit>
+         <trans-unit id="098fe48dfaa5c5994db7315f5e5bc2d0dcf8b01d" datatype="html">
+            <source>Course No</source>
+            <target>رقم المقرر</target>
+         </trans-unit>
+         <trans-unit id="0c2d0e97890355f5113f8101d505cf8374a577ad" datatype="html">
+            <source>Course Name</source>
+            <target>اسم المقرر</target>
+         </trans-unit>
+         <trans-unit id="3bbce5fef7e1151da052a4e529453edb340e3912" datatype="html">
+            <source>Hours</source>
+            <target> الساعات</target>
+         </trans-unit>
+         <trans-unit id="bdcb1032f75d1947b65ab44ff55a216c45236bdd" datatype="html">
+            <source>Grade</source>
+            <target> الدرجة</target>
+         </trans-unit>
+         <trans-unit id="8b4bb9bd0228fff7fc4f4da2a0f8037763ae5bf7" datatype="html">
+            <source>Points</source>
+            <target> النقاط</target>
+         </trans-unit>
+         <trans-unit id="be6beaa046412e0ae2edc171464dc57d3bdde2e4" datatype="html">
+            <source>Attempted Hrs</source>
+            <target> الساعات المحاولة</target>
+         </trans-unit>
+         <trans-unit id="9d4f6cb4069a5c3c223a8055791a599a4a6820d1" datatype="html">
+            <source>GPA Hrs</source>
+            <target>ساعات المعدل التراكمي</target>
+         </trans-unit>
+         <trans-unit id="bd5a3b1c5a3c185c7bbb0e09a061d4cdc88ce5ad" datatype="html">
+            <source>Current</source>
+            <target>الحالي</target>
+         </trans-unit>
+         <trans-unit id="95b1dab1fb6f36e2230c949082318b5ec65ddfdc" datatype="html">
+            <source>Cumulative</source>
+            <target>تراكمي</target>
+         </trans-unit>
+         <trans-unit id="1d59b60ed76b45c0af896705e1f4d8d6339e52c2" datatype="html">
+            <source>Transcript</source>
+            <target>كشف علامات</target>
+         </trans-unit>
+         <trans-unit id="65cc4ab3b4c438e07c89be2b677d08369fb62da2" datatype="html">
+            <source>Welcome</source>
+            <target>مرحبا بك</target>
+         </trans-unit>
+         <trans-unit id="028ec3ea15028aeabb9c0db9372b8e31709b6bcb" datatype="html">
+            <source>Vacation Inquiry</source>
+            <target>استعلام الاجازات</target>
+         </trans-unit>
+         <trans-unit id="5f44989eabd45db8e4564e2d4179f5806944eab0" datatype="html">
+            <source>Overtime Inquiry</source>
+            <target>استعلام خارج الدوام</target>
+         </trans-unit>
+         <trans-unit id="db1d7a5e19ccabb7e762b761d1f379f73a85c6ef" datatype="html">
+            <source>Employee Data</source>
+            <target>بيانات الموظف</target>
+         </trans-unit>
+         <trans-unit id="484b0e541230d60ddb5fbd771a34a5c8d90e7a57" datatype="html">
+            <source>Full Name</source>
+            <target>اسم الموظف </target>
+         </trans-unit>
+         <trans-unit id="cf80aeb2799d1e723ed71dcfa6ea53d0168a90a5" datatype="html">
+            <source>Employee Number</source>
+            <target>الرقم الوظيفي</target>
+         </trans-unit>
+         <trans-unit id="630cd55cd7134ec35ed66005de7d0997569157db" datatype="html">
+            <source>Point</source>
+            <target>النقاط</target>
+         </trans-unit>
+         <trans-unit id="ed31c09fd77c36238c13d83635f3fe5294c733d2" datatype="html">
+            <source>Location</source>
+            <target>المكان</target>
+         </trans-unit>
+         <trans-unit id="2f933b826a570836cab04f683970a2d22068458c" datatype="html">
+            <source>Date</source>
+            <target>التاريخ</target>
+         </trans-unit>
+         <trans-unit id="a02ea1d4e7424ca989929da5e598f379940fdbf2" datatype="html">
+            <source>Duration</source>
+            <target>المدة</target>
+         </trans-unit>
+         <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
+            <source>Contact Us</source>
+            <target>اتصل بنا</target>
+         </trans-unit>
+         <trans-unit id="2ac8720d7298b735159468859b9c722cdb92e964" datatype="html">
+            <source>Logut</source>
+            <target>تسجيل خروج</target>
+         </trans-unit>
+         <trans-unit id="473e1091f24ce7e8eb53c5fe170350f257b67c8c" datatype="html">
+            <source>عربي</source>
+            <target>English</target>
+         </trans-unit>
+         <trans-unit id="f6e04edea3bb3a59d5904725bfbc2c440e793001" datatype="html">
+            <source>Year</source>
+            <target>سنة</target>
+         </trans-unit>
+         <trans-unit id="5bb4a09a669f55893c9a37a8480c8fa3f7ce5702" datatype="html">
+            <source>Month</source>
+            <target>شهر</target>
+         </trans-unit>
+         <trans-unit id="16efb9dead1b90ba1d4b7d27846fa010f8a92d4a" datatype="html">
+            <source>Payroll No.</source>
+            <target>مسير</target>
+         </trans-unit>
+         <trans-unit id="0edfdec180d4fa036fefb33380bf70508fb05b08" datatype="html">
+            <source>Submit Date</source>
+            <target>تاريخ الطلب</target>
+         </trans-unit>
+         <trans-unit id="aa2cd48c68f53b280c10644bd6ad91bb0cdba083" datatype="html">
+            <source>No. of Days</source>
+            <target>عدد الايام</target>
+         </trans-unit>
+         <trans-unit id="e34072fd41b583337bd32f477215bb0c23fe92b2" datatype="html">
+            <source>Payroll Type</source>
+            <target>نوع</target>
+         </trans-unit>
+         <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
+            <source>Details</source>
+            <target>تفاصيل</target>
+         </trans-unit>
+         <trans-unit id="23b396c3bbdb2b3fa94e21650c824c9a499ccb71" datatype="html">
+            <source>Decision No.</source>
+            <target>الرقم</target>
+         </trans-unit>
+         <trans-unit id="c4d29a2c6b8256c5814603ef02c42e4f3632c25a" datatype="html">
+            <source>Deputation allowance</source>
+            <target>بدل انتداب</target>
+         </trans-unit>
+         <trans-unit id="39a22905e41420d472ff11c014ce32f588d55797" datatype="html">
+            <source>Deputation Inquiry</source>
+            <target>استعلام انتداب</target>
+         </trans-unit>
+         <trans-unit id="5c534892ff1cb34e891b78630d7535145b6ae3d6" datatype="html">
+            <source>Bonuses</source>
+            <target>الزيادة</target>
+         </trans-unit>
+         <trans-unit id="ea9b75c2eb3ecb8de5db6293cbaa748800a510ca" datatype="html">
+            <source>Medicine allowance</source>
+            <target>بدل دواء</target>
+         </trans-unit>
+         <trans-unit id="3706ef19f5053b2e2b396d1388fe8ac8249a3f5a" datatype="html">
+            <source>Transportation allowance</source>
+            <target>بدل نقل</target>
+         </trans-unit>
+         <trans-unit id="0da057d5972b1c9b1228abda895f7620206c4a53" datatype="html">
+            <source>Book allowance</source>
+            <target>بدل كتب</target>
+         </trans-unit>
+         <trans-unit id="c107106bae78dd055314a5002c74414c148ab30a" datatype="html">
+            <source>Registration Fees</source>
+            <target>رسوم التسجيل</target>
+         </trans-unit>
+         <trans-unit id="1d122188ab10fc02ed7df7dce59d6adffe644207" datatype="html">
+            <source>Erkab allowance</source>
+            <target>بدل الاركاب</target>
+         </trans-unit>
+         <trans-unit id="2abe0423a53e2d12abfd44ba252eb43dd51743a4" datatype="html">
+            <source>Printing allowance</source>
+            <target>بدل طباعه</target>
+         </trans-unit>
+         <trans-unit id="d04d5b5d13ac9acf9750f1807f0227eeee98b247" datatype="html">
+            <source>Total</source>
+            <target>المجموع</target>
+         </trans-unit>
+         <trans-unit id="225cd8338c1c6b97e4934c7b167c9ed3d4aa23bd" datatype="html">
+            <source>Clothing allowance</source>
+            <target>بدل ملابس</target>
+         </trans-unit>
+         <trans-unit id="e3785a14db3da4919c8e172d297e56f00f236f9f" datatype="html">
+            <source>Net</source>
+            <target>الصافي</target>
+         </trans-unit>
+         <trans-unit id="be5c752b58791dd799bc5d5482d4351e06f18673" datatype="html">
+            <source>Ok</source>
+            <target>موافق</target>
+         </trans-unit>
+         <trans-unit id="865a7c034b7225be14276321e6a34a257af77814" datatype="html">
+            <source>Holiday Type</source>
+            <target>نوع</target>
+         </trans-unit>
+         <trans-unit id="049dc458c5540ff3f731e36661ee7eb7bc1bdb8e" datatype="html">
+            <source>Employee number</source>
+            <target>رقم الموظف</target>
+         </trans-unit>
+         <trans-unit id="1fb8945c83b8c762e8ab477fb4d8152c1647f880" datatype="html">
+            <source>Balance Details</source>
+            <target>تفاصيل الرصيد</target>
+         </trans-unit>
+         <trans-unit id="b4ff7f39c65f42e5a0ba0d17adb81bcdc05e218f" datatype="html">
+            <source>Total balance</source>
+            <target>الرصيد الكلي</target>
+         </trans-unit>
+         <trans-unit id="84b1cd2950288154d10b25506ecd4c3adbf2b030" datatype="html">
+            <source>Actual balance</source>
+            <target>الرصيد الفعلي</target>
+         </trans-unit>
+         <trans-unit id="1a981ac4c3b465fdcce5cc01e6492141ecdbf665" datatype="html">
+            <source>Excluded balance</source>
+            <target>الرصيد المقتطع</target>
+         </trans-unit>
+         <trans-unit id="2e666e80725665c33edda58b4245da3ac317012c" datatype="html">
+            <source>Taken balance</source>
+            <target>الرصيد المأخوذ</target>
+         </trans-unit>
+         <trans-unit id="f3ff11006f77909b9fca2e0fda0a72b097cd76de" datatype="html">
+            <source>Available balance</source>
+            <target>الرصيد المتاح</target>
+         </trans-unit>
+         <trans-unit id="362c57d6af5a42d2a80e5843a4fc246842075ab9" datatype="html">
+            <source>Decision No.</source>
+            <target>الرقم</target>
+         </trans-unit>
+         <trans-unit id="c5303a55b90386cb101ba8bf15a25882b43b5b68" datatype="html">
+            <source>Date of Decision</source>
+            <target>التاريخ</target>
+         </trans-unit>
+         <trans-unit id="a1386a6ce537686c218945eec400198807e3449e" datatype="html">
+            <source>Vacation Type</source>
+            <target>نوع الاجازة</target>
+         </trans-unit>
+         <trans-unit id="e957b20d78c8070dd4832a3c310a7f589500a437" datatype="html">
+            <source>Start Date</source>
+            <target>تاريخ البدء</target>
+         </trans-unit>
+         <trans-unit id="70ec051eddbefe0235df3ecd8da7aae7ca9ffcc7" datatype="html">
+            <source>Duration</source>
+            <target>المدة</target>
+         </trans-unit>
+         <trans-unit id="679cac0ba4cbef2ecf8173f3dda323f17520a43a" datatype="html">
+            <source>End Date</source>
+            <target>تاريخ الانتهاء</target>
+         </trans-unit>
+         <trans-unit id="d17108a943baa52e812371ce08d3f61b605b2c10" datatype="html">
+            <source>From</source>
+            <target>من</target>
+         </trans-unit>
+         <trans-unit id="86b49ea06b9ecba54ea55d43fd34966cf12f4448" datatype="html">
+            <source>To</source>
+            <target>الى</target>
+         </trans-unit>
+         <trans-unit id="1c5e35d9aecb5e1184e28e74748d2d098297d646" datatype="html">
+            <source>Basic Salary</source>
+            <target>الراتب الاساسي</target>
+         </trans-unit>
+         <trans-unit id="45f4ac313b17d58fd0a890bf1da34544dca64979" datatype="html">
+            <source>Transportation</source>
+            <target>النقل</target>
+         </trans-unit>
+         <trans-unit id="3c3a423d91e36ac6624e909fcd2669a25685f847" datatype="html">
+            <source>Rank</source>
+            <target>المرتبه</target>
+         </trans-unit>
+         <trans-unit id="0430dee3e3fd562b97ce315d91558a6fbfff77cc" datatype="html">
+            <source>Decision Date</source>
+            <target>تاريخ</target>
+         </trans-unit>
+         <trans-unit id="28ceec935db2cb7bd8422124719b37ccd1526596" datatype="html">
+            <source>Payroll Date</source>
+            <target>تاريخ المسير</target>
+         </trans-unit>
+         <trans-unit id="3e6acd589d8b82cafd8546409da0a36469d297a0" datatype="html">
+            <source>Start Date</source>
+            <target>تاريخ البداية</target>
+         </trans-unit>
+         <trans-unit id="0f551576faafbd2806d4af653469655f1b35afe1" datatype="html">
+            <source>End Date</source>
+            <target>تاريخ الانتهاء</target>
+         </trans-unit>
+         <trans-unit id="7198eb97a1d059de376ed6c75a0a8d2df20b6052" datatype="html">
+            <source>No. of Days</source>
+            <target>عدد الايام</target>
+         </trans-unit>
+         <trans-unit id="23ae86be73f87f385ce2c973a56fb0ebf3a43b7c" datatype="html">
+            <source>Delegate allowance</source>
+            <target>بدل انتداب</target>
+         </trans-unit>
+         <trans-unit id="73dad51aea5645490db8ce083050615c893050a9" datatype="html">
+            <source>Deduct of Deputation</source>
+            <target>خصم الانتداب</target>
+         </trans-unit>
+         <trans-unit id="f12127be4fb9cce5c820c1abf22daa4ca93e60c1" datatype="html">
+            <source>Deputation Days</source>
+            <target>ايام الانتداب</target>
+         </trans-unit>
+         <trans-unit id="4ef10e170492ff0d4915cd6e78e481a411436eec" datatype="html">
+            <source>Deduct of Vacation</source>
+            <target>خصم الإجازات</target>
+         </trans-unit>
+         <trans-unit id="915e0bcda78992617c865b6aad72e5133055a515" datatype="html">
+            <source>Vacation Days</source>
+            <target>ايام الاجازة</target>
+         </trans-unit>
+         <trans-unit id="a820d8b240c755d3a4f48910c552933dc5904d22" datatype="html">
+            <source>Other Deductions</source>
+            <target>خصومات اخرى</target>
+         </trans-unit>
+         <trans-unit id="dbfb2ed60eac95675c6feed4824b0b2b0b740721" datatype="html">
+            <source>Salary Certificate</source>
+            <target>تعريف الراتب</target>
+         </trans-unit>
+        
+         <trans-unit id="3ac60e653e2141aa15815932620cd7a251616a17" datatype="html">
+            <source>Application Details</source>
+            <target>معلومات الطلب</target>
+         </trans-unit>
+         <trans-unit id="99d06738a0b8802819145b387b5858865d5e3434" datatype="html">
+            <source>Applicant Name&nbsp;:&nbsp;</source>
+            <target>اسم الموظف</target>
+         </trans-unit>
+         <trans-unit id="322b1ff2266ebd61ab31c43f4339e74586f315b7" datatype="html">
+            <source>Department Name&nbsp;:&nbsp;</source>
+            <target>اسم القسم</target>
+         </trans-unit>
+         <trans-unit id="6e3de2fb9c81b9efeb04773591c0c83b3f48977e" datatype="html">
+            <source>Application Date (H)&nbsp;:&nbsp;</source>
+            <target>تاريخ الطلب (هـ)</target>
+         </trans-unit>
+         <trans-unit id="a9bfc166993a3815fc6059098436c0a7bbe150e6" datatype="html">
+            <source>ID No&nbsp;:&nbsp;</source>
+            <target>رقم الهوية</target>
+         </trans-unit>
+         <trans-unit id="b8e2aba5519b84e6dabf5dcdffd7ee2b653b4789" datatype="html">
+            <source>University ID&nbsp;:&nbsp;</source>
+            <target>الرقم الوظيفي</target>
+         </trans-unit>
+         <trans-unit id="ec3e838360b781a1d30667387aebf4af0a5589d1" datatype="html">
+            <source>Generate Arabic certificate with salary</source>
+            <target>شهادة التعريف عربي مع الراتب</target>
+         </trans-unit>
+         <trans-unit id="171bcb3990660a3d7a990e1c6d5ab28d90eaff4d" datatype="html">
+            <source>Generate Arabic certificate with salary</source>
+            <target>شهادة التعريف عربي بدون راتب</target>
+         </trans-unit>
+         <trans-unit id="800eabc87415134a201490ca47b20c5497224d3a" datatype="html">
+            <source>Generate English certificate for general use</source>
+            <target>شهادة تعريف انجليزي للاستخدام العام </target>
+         </trans-unit>
+         <trans-unit id="3ce3b5c28d0402d5092cb491d47d99fb9ce9371c" datatype="html">
+            <source>Generate English certificate for Embassies</source>
+            <target>شهادة التعريف انجليزي للسفارات</target>
+         </trans-unit>
+         <trans-unit id="d6111969b4b0929debd4fd0d910733a6fccd37b2" datatype="html">
+            <source>No data</source>
+            <target>لايوجد بيانات</target>
+         </trans-unit>
+         <trans-unit id="7694deb17830f1aae91a85a2bdf5b688460a84cf" datatype="html">
+            <source>UD ID :</source>
+            <target>الرقم الجامعي :</target>
+         </trans-unit>
+         <trans-unit id="973e1dbe7711f0ee2741aa16356a9cd38c81f243" datatype="html">
+            <source>National ID :</source>
+            <target>رقم الهوية :</target>
+         </trans-unit>
+         <trans-unit id="4dc1eb8327e6fcbe9cf10f611d18ccab26ac12cf" datatype="html">
+            <source>Status :</source>
+            <target>الحالة :</target>
+         </trans-unit>
+         <trans-unit id="ff342685a0b093fc1ad8c7c9cc61b9681f55effd" datatype="html">
+            <source>Gender :</source>
+            <target>الجنس :</target>
+         </trans-unit>
+         <trans-unit id="cfeb2d1f1c74c142ca2a6491b93c51aa0abeb2a7" datatype="html">
+            <source>Cumulative GPA :</source>
+            <target>المعدل :</target>
+         </trans-unit>
+         <trans-unit id="8f1b65aef6b209e552016c55ddb87ba4b4ff2e63" datatype="html">
+            <source>Date Joined :</source>
+            <target>تاريخ الالتحاق :</target>
+         </trans-unit>
+         <trans-unit id="dc706d6576ff4a84674f259762ade6848f094821" datatype="html">
+            <source>Program Enrolled :</source>
+            <target>البرنامج :</target>
+         </trans-unit>
+         <trans-unit id="041c0ccc067e0e87f7f78ef67b60a747e2a26461" datatype="html">
+            <source>Email :</source>
+            <target>البريد الالكتروني :</target>
+         </trans-unit>
+         <trans-unit id="ae7033da07ecd9b155b628acd8aab70c26798b3b" datatype="html">
+            <source>Mobile :</source>
+            <target>رقم الجوال :</target>
+         </trans-unit>
+         <trans-unit id="6567489ecf0899e98c10bc65395798320d53ecc9" datatype="html">
+            <source>Class Schedule</source>
+            <target>الجدول الدراسي</target>
+         </trans-unit>
+         <trans-unit id="4b0ca852bafa5037c4e64c7b18f9cd1e14b799de" datatype="html">
+              <source>Subject</source>
+            <target>الموضوع</target>
+         </trans-unit>
+         <trans-unit id="b7a285515e41f0c8038d8b8e65b5199cb9928681" datatype="html">
+              <source>Course</source>
+            <target>المادة</target>
+         </trans-unit>
+         <trans-unit id="b73bd9d7532c55677b0042b7d2e5bcb1f20b5290" datatype="html">
+              <source>Course Inquiry</source>
+            <target>استعلام الدورات</target>
+         </trans-unit>
+         <trans-unit id="fdf7cbdc140d0aab0f0b6c06065a0fd448ed6a2e" datatype="html">
+              <source>Title</source>
+            <target>العنوان</target>
+         </trans-unit>
+         <trans-unit id="f60c6c571ed1e6266976ca261a2b2d0ebaa16c6e" datatype="html">
+              <source>Class</source>
+            <target>الشعبة</target>
+         </trans-unit>
+         <trans-unit id="b24f1cd32cbc1ec9537af28c4fe1b8204097714b" datatype="html">
+              <source>Time</source>
+            <target>الوقت</target>
+         </trans-unit>
+         <trans-unit id="2c1ca89a7e77a38310f90969d463b9dbfa70d483" datatype="html">
+              <source>SAT</source>
+            <target>السبت</target>
+         </trans-unit>
+         <trans-unit id="61125f60a7b33c17e8d82d02cb2e8ba316aa28fc" datatype="html">
+              <source>SUN</source>
+            <target>الاحد</target>
+         </trans-unit>
+         <trans-unit id="4098cba23f7b91bfb87bb6cd5e4bc500ce17037c" datatype="html">
+              <source>MON</source>
+            <target>الاثنين</target>
+         </trans-unit>
+         <trans-unit id="ca9711d38fda07b26ff6eedcdd6ce4aaafc0cd07" datatype="html">
+              <source>TUE</source>
+            <target>الثلاثاء</target>
+         </trans-unit>
+         <trans-unit id="67c687a4bc2beb9104a9b3a63c592b5b71af8913" datatype="html">
+              <source>WED</source>
+            <target>الاربعاء</target>
+         </trans-unit>
+         <trans-unit id="31b65a6841669dedf7c826829ffd4e2f2f51f732" datatype="html">
+              <source>THURS</source>
+            <target>الخميس</target>
+         </trans-unit>
+         <trans-unit id="c5779952c19c71039340c0532fd9ab3da1151200" datatype="html">
+              <source>FRI</source>
+            <target>الجمعه</target>
+         </trans-unit>
+         <trans-unit id="873ded5874dfe1ac0172b2ba5b57b0173813444c" datatype="html">
+              <source>Ticket Request Application</source>
+            <target> طلب تذكرة </target>
+         </trans-unit>
+         <trans-unit id="3a24004ebbf584b0bfe9df1b338dca7ea825dcb1" datatype="html">
+              <source>Student Name</source>
+            <target> الاسم : </target>
+         </trans-unit>
+         <trans-unit id="7f5672b0a30ba4c7f060a7be6a9e8d3abfb45205" datatype="html">
+              <source>College Name</source>
+            <target> الكلية : </target>
+         </trans-unit>
+         <trans-unit id="dcb14e5afe0cc2e3e0106ddbceee5aa7df0acbd3" datatype="html">
+              <source>Academic ID</source>
+            <target> الرقم الجامعي : </target>
+         </trans-unit>
+         <trans-unit id="19de939fe580b8364c0b656a6f4fa39289a6d72f" datatype="html">
+              <source>Definition Certificate Application</source>
+            <target>خطاب تعريف</target>
+         </trans-unit>
+         <trans-unit id="140b2cc0ba3253c5676b56901c2a5aa6242e027f" datatype="html">
+              <source>Generate Letter</source>
+            <target>تحميل الخطاب</target>
+         </trans-unit>
+        
+         <trans-unit id="838a46816b130c73fe73b96e69176da9eb3b1190" datatype="html">
+              <source>FACEBOOK</source>
+            <target>فيسبوك</target>
+         </trans-unit>
+         <trans-unit id="0b43fc11a24a9c1f47c830703624ca0a55cfeb77" datatype="html">
+              <source>YOUTUBE</source>
+            <target>يوتيوب</target>
+         </trans-unit>
+         <trans-unit id="99cb827741e93125476a0f5b676372d85d15b5fc" datatype="html">
+              <source>TWITTER</source>
+            <target>تويتر</target>
+         </trans-unit>
+      </body>
+   </file>
+</xliff>

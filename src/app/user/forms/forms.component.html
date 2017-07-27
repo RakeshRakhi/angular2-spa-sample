@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="col-md-12 bgwhite"><br>
+        <h3 i18n>Forms</h3>
+        <div class="row mtop">
+            <div class="col-md-12">
+                <div class="table-responsive mtop">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr class="{{i%2==0?'active':''}}" *ngFor="let link of formsLinks; let i = index">
+                                <td>{{link.title}}</td>
+                                <td align="center">
+                                    <a [href]="link.link" target="_blank">
+                                        <img src="images/download.png">
+                                    </a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

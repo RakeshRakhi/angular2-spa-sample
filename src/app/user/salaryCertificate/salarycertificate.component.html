@@ -1,0 +1,55 @@
+<div class="container" [ngBusy]="{busy:busy ,message:''}">
+
+    <div class="col-md-12 bgwhite">
+
+        <!--start heading section-->
+        <h3 i18n>Salary Certificate</h3>
+        <!--end heading section-->
+        <!--start form section-->
+        <div class="table-responsive">
+            <table class="table table-bordered mtop">
+                <tbody>
+                    <tr>
+                        <th i18n>Application Details</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="wpanel">
+                                <div class="col-md-6" id="wl">
+                                    <strong i18n>Applicant Name&nbsp;:&nbsp;</strong> {{salaryCertificateInfo.FullNameEn}}<br>
+                                    <strong i18n>Department Name&nbsp;:&nbsp;</strong> {{salaryCertificateInfo.Departent}}<br>
+                                </div>
+                                <div class="col-md-6" id="wl">
+                                    <strong i18n>Application Date (H)&nbsp;:&nbsp;</strong> {{salaryCertificateInfo.CurrentHDate}}<br>
+                                    <strong i18n>ID No&nbsp;:&nbsp;</strong> {{salaryCertificateInfo.National_Id}}<br>
+                                    <strong i18n>University ID&nbsp;:&nbsp;</strong> {{salaryCertificateInfo.Employment_No}}<br>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-default" data-toggle="dropdown" id="mright">Salary Certificate Templates</button>
+            <ul class="dropdown-menu">
+                <li>
+                    <a title="AS" href="{{apiUrl}}?cmd=AS&userName={{usr}}" target="_blank" style="cursor: pointer;" i18n>Generate Arabic certificate with salary</a>
+                </li>
+                <li>
+                    <a title="A" href="{{apiUrl}}?cmd=A&userName={{usr}}" style="cursor: pointer;" target="_blank" i18n>Generate Arabic certificate without salary</a></li>
+                <li>
+                    <a title="E" href="{{apiUrl}}?cmd=E&userName={{usr}}" style="cursor: pointer;" target="_blank" i18n>Generate English certificate for general use</a></li>
+                <li>
+                    <a title="EV" href="{{apiUrl}}?cmd=EV&userName={{usr}}"style="cursor: pointer;" target="_blank" i18n>Generate English certificate for Embassies</a></li>
+            </ul>
+
+        </div>
+        <div> &nbsp; </div>
+        <!--end form section-->
+
+
+
+    </div>
+
+</div>

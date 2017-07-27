@@ -1,0 +1,30 @@
+<!--[ngBusy]="{busy:busy ,message:''}"-->
+<div class="row loginbg" [ngBusy]="{busy:busy ,message:''}">
+	<div class="container">
+		<div class="ltop">&nbsp;</div>
+		<div class="login">
+			<h5 class="text-center login-title" i18n>SPA Portal Login</h5>
+			<img src="images/portal_login.jpg" class="img-responsive">
+			<div class="account-wall">
+
+				<form class="form-signin" (submit)="onsubmit()" aria-autocomplete="off" novalidate>
+					<input type="text" class="form-control" i18n-placeholder placeholder="Email Address" autofocus [(ngModel)]="model.UserName"
+					 name="email" required/>
+
+					<input type="password" class="form-control stop" i18n-placeholder placeholder="password" required [(ngModel)]="model.Password"
+					 name="password" i18n />
+					<div class="checkbox">
+						<label>
+					  <input type="checkbox"><a href="#" style="line-height:20px; font-size:12px; color:#fff;"i18n>Remember me</a>
+					</label>
+					</div>
+					<label class="has-error" *ngIf="loginAuthMsg" i18n>User name or password is wrong.</label>
+					<input type="submit" class="btn btn-lg btn-login btn-block stop" value="LOGIN" i18n-value />
+				</form>
+			</div>
+			<div class="col-md-12 stop text-center">
+				<a class="arfont language" href="#" (click)="changeLang()" i18n>عربي</a>
+			</div>
+		</div>
+	</div>
+</div>

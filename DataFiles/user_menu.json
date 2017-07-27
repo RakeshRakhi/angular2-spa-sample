@@ -1,0 +1,38 @@
+[
+    {
+        "link": "#/user/dashboard",
+        "title": "My Dashboard",
+        "type": "external",
+        "newWindow": false
+    },
+    {
+        "link": "#user/decision",
+        "title": "Decisions",
+        "type": "external",
+        "newWindow": false
+    },
+    {
+        "link": "#user/circular",
+        "title": "Circular",
+        "type": "external",
+        "newWindow": false
+    },
+    {
+        "link": "https://mail.google.com",
+        "title": "Email",
+        "type": "external",
+        "newWindow": true
+    },
+    {
+        "link": "#/user/forms",
+        "title": "Forms",
+        "type": "external",
+        "newWindow": false
+    },
+    {
+        "link": "#/user/adminiatrative-guides",
+        "title": "Administrative Guides",
+        "type": "external",
+        "newWindow": false
+    }
+]
